@@ -1,0 +1,31 @@
+@font-face {
+    font-family: vazir;
+    src: url(./../fonts/Vazir.ttf);
+}
+
+@font-face {
+    font-family: afagh;
+    src: url(./../fonts/Far_Afaaq.ttf);
+}
+
+*{
+    direction: rtl;
+}
+
+h1{
+    font-family: afagh;
+}
+
+.fard{
+    color: cornflowerblue;
+    background-color: crimson;
+}
+
+.zoj{
+    background-color: cornflowerblue;
+    color: crimson;
+}
+
+p{
+    font-family: vazir;
+}
