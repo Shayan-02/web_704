@@ -1,0 +1,22 @@
+/* p{
+    margin: 50px 0;
+} */
+
+#p1{
+    height: 40px;
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px; */
+    padding: 10px 0 10px 20px;
+    background-color: coral;
+    margin-bottom: 100px;
+}
+
+#p2{
+    margin-left: 50px;
+    /* padding-top: 20px;
+    padding-bottom: 30px; */
+    padding: 20px 0 30px 0;
+    height: 60px;
+    background-color: crimson;
+}
