@@ -1,0 +1,111 @@
+@font-face {
+    font-family: bita;
+    src: url(./../fonts/Far_Bita.ttf);
+}
+
+:root {
+    --primary-color: #FF6036;
+    --light-back: #FCFCFC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    direction: rtl;
+    font-family: bita;
+}
+
+/* start header */
+/* start nav */
+
+header nav {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav .top-bar {
+    width: 70%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar .menu {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.top-bar .menu ul {
+    display: flex;
+    gap: 12px;
+}
+
+.top-bar a {
+    color: #333;
+    font-size: 20px;
+}
+
+.top-bar .download {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: none;
+    font-size: 16px;
+}
+
+/* end nav */
+/* start ads */
+
+.ads {
+    background-image: url(./../images/ads.jpg);
+    height: 70px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* end ads */
+
+/* start main */
+
+main .hero{
+    display: flex;
+    justify-content: center;
+}
+
+.hero .container{
+    width: 60%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.container .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    height: 100%;
+}
+
+
+.right .btns{
+    display: flex;
+}
+
+.btns button{
+    width: 150px;
+}
+
+.hero .left img{
+    width: 100%;
+
+}
+
+/* end main */

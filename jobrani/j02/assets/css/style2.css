@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Bitcount+Ink:wght@100..900&family=Dancing+Script:wght@400..700&family=Edu+QLD+Hand:wght@400..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Noto+Nastaliq+Urdu:wght@400..700&family=Playwrite+NZ+Basic:wght@100..400&family=Vazirmatn:wght@100..900&display=swap');
+
+span {
+    font-family: 'Google Sans';
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.blue {
+    color: #176FE1;
+}
+
+.red {
+    color: #D73428;
+}
+
+#yellow {
+    color: #F3BB17;
+}
+
+#green {
+    color: #239043;
+}

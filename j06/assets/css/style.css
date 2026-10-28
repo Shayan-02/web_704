@@ -1,0 +1,17 @@
+*{
+    direction: rtl;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    text-align: center;
+    background-color: navy;
+}
+
+a{
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}

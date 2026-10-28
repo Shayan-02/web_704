@@ -1,0 +1,25 @@
+@font-face {
+    font-family: vazir;
+    src: url(./../fonts/Vazir.ttf);
+}
+
+* {
+    direction: rtl;
+    font-family: vazir;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    background-color: #0C5B89;
+    text-align: center;
+    height: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-top: 15px;
+    display: inline-block;
+}

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #bbb;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item span{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.item1{
+    background-color: cornflowerblue;
+}
+
+.item2{
+    background-color: coral;
+}
+
+.item3{
+    background-color: crimson;
+}
+
+.item4{
+    background-color: rgb(93, 243, 168);
+}
+
+.item5{
+    background-color: violet;
+}
+
+.item6{
+    background-color: lemonchiffon;
+}

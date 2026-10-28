@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#p1{
+    /* padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px; */
+    /* padding: 10px 20px 30px 40px; */
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px; */
+    /* padding: 10px 20px; */
+    padding: 20px;
+    background-color: chocolate;
+    margin-bottom: 20px;
+}
+
+#p2{
+    background-color: crimson;
+    margin: 10px 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid blue;
+}
+
+img{
+    border-radius: 10px;
+}

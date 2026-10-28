@@ -1,0 +1,88 @@
+@font-face {
+    font-family: vazir;
+    src: url(./../fonts/Vazir.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    list-style: none;
+    text-decoration: none;
+    font-family: vazir;
+}
+
+body {
+    background-color: #171923;
+}
+
+header .ads-box {
+    text-align: center;
+    background-color: #161715;
+}
+
+header #ads {
+    width: 40%;
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #bbb;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 70%;
+}
+
+header .menu {
+    width: 70%;
+
+}
+
+
+header .menu ul {
+    display: flex;
+    display: flex;
+    gap: 20px;
+}
+
+header .menu ul li a {
+    color: #999;
+    font-size: 14px;
+}
+
+header .menu ul li a:hover {
+    color: white;
+    font-weight: bold;
+    transition: all .5s ease-in-out;
+}
+
+header .items {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .items button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+header .items .icon{
+    color: #bbb;
+}
+
+
+header .items img {
+    border-radius: 50%;
+    width: 35px;
+}
