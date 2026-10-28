@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    height: 100px;
+}
+
+.first{
+    background-color: khaki;
+    /* margin-left: 25px; */
+    position: relative;
+    left: 25px;
+}
+
+.second{
+    background-color: darkseagreen;
+    position: relative;
+    left: 350px;
+    bottom: 30px;
+}
+
+#up{
+    /* position: absolute; */
+    position: fixed;
+    bottom: 40px;
+    left: 20px;
+    z-index: 10;
+    background-color: dimgrey;
+    color: black;
+    padding: 10px;
+    border-radius: 50%;
+}
