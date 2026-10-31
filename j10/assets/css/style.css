@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+h1::before{
+    content: "▶️";
+}
+
+h1::after{
+    content: "◀️";
+}
+
+ul li::before{
+    content: "ali -> ";
+}
