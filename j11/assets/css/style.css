@@ -1,0 +1,48 @@
+@font-face {
+    font-family: vazir;
+    src: url(./../fonts/Vazir.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    direction : rtl;
+    font-family: vazir;
+}
+
+.w-70{
+    display: flex;
+    justify-content: center;
+}
+
+.needs{
+    width: 70%;
+}
+
+
+.needs .title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.needs .bottom{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.needs .item{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #333;
+    border-radius: 20px;
+}
+
+.needs .item img{
+    width: 100px;
+}

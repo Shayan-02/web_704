@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    direction: rtl;
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        background-color: crimson;
+    }
+}
+
+@media screen and (max-width: 999px) and (orientation: portrait) {
+    body {
+        background-color: rgb(83, 136, 252);
+    }
+}
+
+@media screen and (max-width: 999px) and (orientation: landscape) {
+    body {
+        background-color: rgb(94, 245, 127);
+    }
+}

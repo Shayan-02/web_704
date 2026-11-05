@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    background-color: darkgray;
+    width: 700px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+    grid-template-rows: 100px auto 100px;
+}
+
+.item{
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+}
